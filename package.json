@@ -1,0 +1,23 @@
+{
+  "fitbit": {
+    "appUUID": "2adcf708-953d-4fc0-a702-65c78702ac3b",
+    "appType": "app",
+    "appDisplayName": "Oura Stats",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": [
+      "access_internet"
+    ],
+    "buildTargets": [
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Oura Stats"
+      }
+    }
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~1.0.0"
+  }
+}

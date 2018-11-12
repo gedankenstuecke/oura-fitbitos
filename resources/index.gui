@@ -1,0 +1,45 @@
+<svg viewport-fill="black">
+  
+  <image x="10" y="80%" width='50' height='50' href="images/sleep.png" class='labelIcon'/>
+  <image x="40%" y="80%" width='50' height='50' href="images/readiness.png" class='labelIcon'/>
+  <image x="70%" y="80%" width='50' height='50' href="images/activity.png" class='labelIcon'/>
+  
+  <arc id='sleep' x="0%" y="10%" width="30%" height="30%" fill="white"
+    arc-width="10" start-angle="0" sweep-angle="0" />
+  <arc id='readiness' x="35%" y="10%" width="30%" height="30%" fill="white"
+    arc-width="10" start-angle="0" sweep-angle="0" />
+  <arc id='activity' x="70%" y="10%" width="30%" height="30%" fill="white"
+    arc-width="10" start-angle="0" sweep-angle="0" />
+  
+  
+    <text id='sleeptxt' x="15%" y="28%"
+        font-family="System-Regular" fill="white"
+        font-size="30" font-weight="bold"
+        text-anchor="middle">--</text>
+  
+    <g id="sleepLabel" transform="rotate(90)">
+      <text id="sleepLabelText">Sleep</text>
+    </g>
+  
+    <g id="readinessLabel" transform="rotate(90)">
+      <text id="readinessLabelText">Readiness</text>
+    </g>
+  
+    <g id="activityLabel" transform="rotate(90)">
+      <text id="activityLabelText">Activity</text>
+    </g>
+   
+  <text id='readinesstxt' x="50%" y="28%"
+        font-family="System-Regular" fill="white"
+        font-size="30" font-weight="bold"
+        text-anchor="middle">--</text>
+  
+  <text id='activitytxt' x="85%" y="28%"
+        font-family="System-Regular" fill="white"
+        font-size="30" font-weight="bold"
+        text-anchor="middle">--</text>
+  
+</svg>
+
+
+

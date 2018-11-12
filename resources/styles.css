@@ -1,0 +1,26 @@
+#sleepLabelText {
+  x: 95%;
+  y: -25%;
+  font-size: 25;
+  font-family: Colfax-Light;
+  text-anchor: end;
+  fill: grey;
+}
+
+#readinessLabelText {
+  x: 95%;
+  y: -60%;
+  font-size: 25;
+  font-family: Colfax-Light;
+  text-anchor: end;
+  fill: grey;
+}
+
+#activityLabelText {
+  x: 95%;
+  y: -90%;
+  font-size: 25;
+  font-family: Colfax-Light;
+  text-anchor: end;
+  fill: grey;
+}
