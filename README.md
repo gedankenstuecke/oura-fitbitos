@@ -23,7 +23,7 @@ This is an extremely early version of the Oura data display, so there will be so
 Please report bugs you find or even better: fix them and make a pull request! 😉
 
 ## Disclaimer
-This app is developed independently of the company behind the OuraRing, it's just a fan service by someone who likes both Fitbit & Oura's hardware.
+This code has been adapted from Fitbit's [`https://github.com/Fitbit/sdk-oauth/`](https://github.com/Fitbit/sdk-oauth/) repository that highlights how to use their OAuth settings etc. This app is developed independently of the company behind the OuraRing, it's just a fan service by someone who likes both Fitbit & Oura's hardware.
 
 ### Terms of Service & Privacy Policy
 This app does store and collect all data locally on your Fitbit device and your Fitbit companion app on your phone. The access credentials that are used to request your data from Oura are not sent to me, but are kept inside the Fitbit ecosystem.
